@@ -2,8 +2,12 @@
 This repository gives you simple api in node js that connects to Dynamo DB
 
 This package has BookStoreClient.js which can be invoked direcly in Command line using below commands
-// node BookStoreTest.js GET ISB100
-// node BookStoreTest.js LIST
+
+#----
+node BookStoreTest.js GET ISB100
+
+#----
+node BookStoreTest.js LIST
 
 API Gateway URL to view all the book : https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books/
 
