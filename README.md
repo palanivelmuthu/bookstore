@@ -35,6 +35,6 @@ node BookStoreClient.js LIST
 #-----
 API Gateway URLs :
 
-https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books
-https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books/ISB100
+#---https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books
+#---https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books/ISB100
 
