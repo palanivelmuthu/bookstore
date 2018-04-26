@@ -33,4 +33,8 @@ node BookStoreClient.js GET ISB100
 node BookStoreClient.js LIST
 
 #-----
-API Gateway URL to view all the book : https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books/
+API Gateway URLs :
+
+https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books
+https://m6x606vg54.execute-api.us-east-1.amazonaws.com/BookStoreAPI/books/ISB100
+
