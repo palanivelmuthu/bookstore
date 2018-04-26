@@ -40,10 +40,11 @@ let getBookById = function (bookid,callback) {
     };
     docClient.get(getparams, function (err, response) {
         if(!err){
-            if(response.Item.stock<5){
+            if(response.Item && response.Item.stock<5){
                 response.Item.alert='Avalability of book  '+response.Item.bookid+' is Less then 5';
             }else{
-                response.Item.alert="";
+                if(response.Item)
+                    response.Item.alert="";
             }
         }        
         callback(err,response);
