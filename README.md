@@ -2,7 +2,7 @@
 This repository gives you simple api in node js that connects to Dynamo DB
 
 Initial Setup
-1. Create a dynamobd table with name BookStore with bookid as primary key.
+1. Create a dynamodb table with name BookStore with bookid as primary key.
 2. insert below two sample records inorder to run test cases and BookStoreClient.js file.
 3.       {
         "author": "James Gosling",
